@@ -6,7 +6,7 @@ require "lorenzosinisi/experience"
 require "lorenzosinisi/ruby"
 require "lorenzosinisi/testing"
 require "lorenzosinisi/distance"
-require "cli"
+require "cli/application"
 module Lorenzosinisi
 end
 
