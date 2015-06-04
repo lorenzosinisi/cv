@@ -3,7 +3,7 @@ require "json"
   class << self
 
     def experience
-      experiences = airfy + breack + freelance + with + clients +  und + smell
+      experiences = airfy + breack + freelance + " with " + clients +  " and I also" + smell
       return experiences
      end
 
@@ -16,14 +16,6 @@ require "json"
 
      def freelance
       "I've been working for 4 years as Web Developer freelance "
-     end
-
-     def with
-      " withd "
-     end
-
-     def und
-      " and I also"
      end
 
      def clients

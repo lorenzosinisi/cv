@@ -2,7 +2,7 @@ module Lorenzosinisi
 
   class << self
     def cv
-      "this is my cv: bla bla bla bla"
+      "This is my GEM CV"
     end
 
     def start
@@ -15,7 +15,7 @@ module Lorenzosinisi
     end
 
     def currently
-      "my current job"
+      "My current job: " + self.airfy
     end
 
     def phone

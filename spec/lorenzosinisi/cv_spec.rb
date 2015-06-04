@@ -3,13 +3,13 @@ require 'spec_helper'
 describe Lorenzosinisi do
   describe ".cv" do
     it 'output some shit' do
-      expect(Lorenzosinisi.cv).to eq "this is my cv: bla bla bla bla"
+      expect(Lorenzosinisi.cv).to eq "This is my GEM CV"
     end
   end
 
   describe ".currently" do
     it 'output some shit for my current job' do
-      expect(Lorenzosinisi.currently).to eq "my current job"
+      expect(Lorenzosinisi.currently).to eq "My current job: In Airfy GmbH I've been working as Ruby on Rails developer since Feb 2015 doing senior stuff and dealing with the creation of MicroServices and exending their core application"
     end
   end
 
@@ -34,6 +34,12 @@ describe Lorenzosinisi do
   describe ".github" do
     it 'output some shit about my mail' do
       expect(Lorenzosinisi.github).to eq(true)
+    end
+  end
+
+  describe ".what_i_know" do
+    it 'output something about what I know' do
+      expect(Lorenzosinisi.what_i_know).to eq(true)
     end
   end
 
